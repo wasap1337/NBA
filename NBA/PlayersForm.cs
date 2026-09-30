@@ -54,7 +54,7 @@ namespace NBA
                     {
                         dgvPlayers.Columns["PlayerId"].Visible = false;
                     }
-                }
+                }//TEST
                 catch (Exception ex)
                 {
                     MessageBox.Show("Ошибка при загрузке списка игроков: " + ex.Message);
